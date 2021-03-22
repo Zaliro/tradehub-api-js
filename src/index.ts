@@ -16,7 +16,8 @@ export * from './lib/types'
 export * from './lib/utils'
 export * from './lib/websocket'
 export * from './lib/tradehub'
-export { default as TradeHubSDK } from './lib/tradehub'
+export * from './lib/tradehub'
+export * from './lib/tradehub/api'
 
 export {
   constants,
@@ -28,3 +29,5 @@ export {
   utils,
   clients,
 }
+
+

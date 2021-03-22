@@ -22,4 +22,5 @@ class TradeHubSDK {
   }
 }
 
-export default TradeHubSDK
+export { TradeHubSDK, APIClient }
+export * from './api'
